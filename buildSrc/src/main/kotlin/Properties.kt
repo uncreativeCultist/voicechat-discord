@@ -10,19 +10,19 @@ object Properties {
 
     /* Paper */
     const val paperApiVersion = "1.19"
-    const val paperMinecraftDevVersion = "1.21"
-    const val paperDevBundleVersion = "1.21-R0.1-SNAPSHOT"
+    const val paperMinecraftDevVersion = "1.21.3"
+    const val paperDevBundleVersion = "1.21.3-R0.1-SNAPSHOT"
 
     /* Fabric (https://fabricmc.net/develop) */
     const val fabricLoaderRequiredVersion = "0.14.22"
-    const val fabricMinecraftDevVersion = "1.21"
-    const val yarnMappingsDevVersion = "$fabricMinecraftDevVersion+build.7"
-    const val fabricLoaderDevVersion = "0.15.11"
-    const val fabricApiDevVersion = "0.100.4+$fabricMinecraftDevVersion"
+    const val fabricMinecraftDevVersion = "1.21.3"
+    const val yarnMappingsDevVersion = "$fabricMinecraftDevVersion+build.2"
+    const val fabricLoaderDevVersion = "0.16.9"
+    const val fabricApiDevVersion = "0.107.3+$fabricMinecraftDevVersion"
 
     /* Dependencies */
-    const val voicechatApiVersion = "2.4.11"
-    const val voicechatModRuntimeVersion = "2.5.16"
+    const val voicechatApiVersion = "2.5.0"
+    const val voicechatModRuntimeVersion = "2.5.25"
     const val yamlConfigurationVersion = "2.0.2"
     const val javaSemverVersion = "0.10.2"
     const val gsonVersion = "2.10.1"
@@ -42,7 +42,10 @@ object Properties {
         "1.20.4",
         "1.20.5",
         "1.20.6",
-        "1.21"
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
     )
 
     /* Gradle Plugins */
